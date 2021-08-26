@@ -5,6 +5,7 @@
 The repository provides basic introduction of gorm and goFiber(web framework of golang) with postgres as supporting database.
 This repository has four main folders and a few data generation scripts:
 
+* **db**: Contains DB connection related information
 * **data**: Contains all the raw data we need to populate our elastic search indexes
 * **routes**: Contains the API definition and corresponding request routes
 * **models**: Contains the structural objects used in this project and implements all the logic used
